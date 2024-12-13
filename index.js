@@ -33,7 +33,7 @@ client.on(Events.InteractionCreate, interaction => {
         interaction.reply("Fucking dumbass 🤣");
     }
 
-    if(interaction.commandName === "help") {
+    if(interaction.commandName === "playlist") {
         interaction.reply("Playing playlist");
     }
 });
