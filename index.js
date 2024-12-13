@@ -6,7 +6,7 @@ const client = new Client({intents: []});
 
 client.once(Events.ClientReady, c => {
     console.log(`Logged in as ${c.user.username}`);
-
+    
     const ping = new SlashCommandBuilder()
         .setName("ping")
         .setDescription("Replies with ping!");
